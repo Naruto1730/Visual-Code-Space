@@ -18,7 +18,7 @@ package com.teixeira.vcspace.activities
 import androidx.activity.compose.LocalOnBackPressedDispatcherOwner
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
+import androyidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
@@ -151,7 +151,7 @@ class AboutActivity : BaseComposeActivity() {
                             TextButton(onClick = {
                                 openDialog = null
                             }) {
-                                Text("OK")
+                                Text("Okay")
                             }
                         }
                     )
