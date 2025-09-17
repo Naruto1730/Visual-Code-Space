@@ -50,17 +50,17 @@ fun SocialCard(modifier: Modifier = Modifier) {
         SocialItem(
             icon = Icons.Rounded.Language,
             title = stringResource(R.string.website),
-            url = "https://visualcodespace.com.br/"
+            url = "Under Development"
         ),
         SocialItem(
             icon = Icons.Rounded.MailOutline,
             title = stringResource(R.string.email),
-            url = "contact@visualcodespace.com.br"
+            url = "flashteam273@gmail.com"
         ),
         SocialItem(
             icon = Telegram,
             title = stringResource(R.string.telegram),
-            url = "https://t.me/visualcodespace"
+            url = "https://t.me/T_X_XP226BOT"
         )
     )
 
