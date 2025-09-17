@@ -151,7 +151,7 @@ class AboutActivity : BaseComposeActivity() {
                             TextButton(onClick = {
                                 openDialog = null
                             }) {
-                                Text("OK")
+                                Text("Okay")
                             }
                         }
                     )
